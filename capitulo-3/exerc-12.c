@@ -17,4 +17,5 @@ int main(){
 
 	v = pi * (raio * raio) * h;
 	printf("O volume do cilindro e: %.2f\n", v);
+	return 0;
 }
