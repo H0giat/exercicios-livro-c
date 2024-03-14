@@ -11,8 +11,11 @@ int main(){
 	printf("Digite um numero de tres digitos: ");
 	scanf("%d", &num);
 
+	// em 'uni' ele retorna 3 como resto da divisão
 	uni = num % 10;
+	// em 'dez' ele retorna 23 e depois é dividido por 10 para retornar apenas o 2
 	dez = (num % 100) / 10;
+	// em 'cen' ele apenas divide por 100 e retorna 1
 	cen = num / 100;
 
 	printf("%d%d%d\n", uni, dez, cen);
