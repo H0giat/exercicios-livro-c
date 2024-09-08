@@ -6,7 +6,7 @@ Some esses valores e apresente o resultado na tela
 #include <stdio.h>
 
 int main(){
-  double cont, med, aux;
+  double cont, aux;
 
   for(int i = 0; i < 10; i++){
     printf("Digite seus valores: ");
@@ -14,7 +14,6 @@ int main(){
     aux += cont;
   }
 
-  med = aux / 10;
-  printf("Media: %.1lf\n", med);
+  printf("Media: %.1lf\n", aux);
   return 0;
 }
